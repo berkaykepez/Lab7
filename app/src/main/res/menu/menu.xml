@@ -6,4 +6,17 @@
         android:onClick="newGame"
         android:title="New Game"
         android:visible="true" />
+
+    <item
+        android:enabled="true"
+        android:onClick="saveGame"
+        android:title="Save"
+        android:visible="true" />
+
+    <item
+        android:enabled="true"
+        android:title="Load"
+        android:onClick="loadGame"
+        android:visible="true" />
+
 </menu>

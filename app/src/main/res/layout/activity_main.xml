@@ -13,24 +13,27 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:textSize="36sp" />
-
-        <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
     </TableRow>
 
@@ -40,10 +43,19 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
 
         <Button
@@ -51,13 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="36sp" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
     </TableRow>
 
@@ -67,17 +73,11 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="36sp" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
 
         <Button
@@ -85,6 +85,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
             android:textSize="36sp" />
     </TableRow>
 </TableLayout>
